@@ -15,7 +15,6 @@ module.exports = React.createClass({
   },
   render () {
     const head = Helmet.rewind()
-
     let css
     if (process.env.NODE_ENV === 'production') {
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />

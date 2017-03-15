@@ -8,11 +8,12 @@ export default class Less extends React.Component {
     return (
       <div>
         <Helmet
-          title={`${config.siteTitle} | Hi lessy friends`} 
+          title={`${config.siteTitle} | Hi lessy friends`}
         />
         <h1
           className="the-less-class"
         >
+        
           Hi lessy friends
         </h1>
         <div className="less-nav-example">
