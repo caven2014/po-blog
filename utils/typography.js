@@ -2,36 +2,39 @@ import ReactDOM from 'react-dom/server'
 import React from 'react'
 import Typography from 'typography'
 import { GoogleFont } from 'react-typography'
-import CodePlugin from 'typography-plugin-code'
+// import CodePlugin from 'typography-plugin-code'
 
-const options = {
-  googleFonts: [
-    {
-      name: 'Montserrat',
-      styles: [
-        '700',
-      ],
-    },
-    {
-      name: 'Arvo',
-      styles: [
-        '400',
-        '400i',
-        '700',
-      ],
-    },
-  ],
-  headerFontFamily: ['Montserrat', 'sans-serif'],
-  bodyFontFamily: ['Arvo', 'sans-serif'],
-  baseFontSize: '18px',
-  baseLineHeight: 1.65,
-  scaleRatio: 2.25,
-  plugins: [
-    new CodePlugin(),
-  ],
-}
+import moragaTheme from 'typography-theme-moraga'
 
-const typography = new Typography(options)
+// const options = {
+//   googleFonts: [
+//     {
+//       name: 'Montserrat',
+//       styles: [
+//         '700',
+//       ],
+//     },
+//     {
+//       name: 'Arvo',
+//       styles: [
+//         '400',
+//         '400i',
+//         '700',
+//       ],
+//     },
+//   ],
+//   headerFontFamily: ['Montserrat', 'sans-serif'],
+//   bodyFontFamily: ['Arvo', 'sans-serif'],
+//   baseFontSize: '18px',
+//   baseLineHeight: 1.65,
+//   scaleRatio: 2.25,
+//   plugins: [
+//     // new CodePlugin(),
+//     new moragaTheme()
+//   ],
+// }
+
+const typography = new Typography(moragaTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {

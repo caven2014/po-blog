@@ -28,7 +28,7 @@ module.exports = React.createClass({
             style={{
               maxWidth: 960,
               paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
+              padding: `${rhythm(.6)} ${rhythm(3/4)}`,
             }}
           >
             <Link
@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              po blog
+              jser
             </Link>
           </Container>
         </Headroom>
