@@ -20,10 +20,7 @@ export default class Index extends React.Component {
         <h3>目录</h3>
         <ul>
           <li>
-            <Link to={prefixLink('/markdown/')}>自我总结</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/markdownHelper/')}>马克飞象帮助文档</Link>
+            <Link to={prefixLink('/markdown/')}>2016工作总结</Link>
           </li>
 
           {

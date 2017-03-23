@@ -38,6 +38,9 @@ module.exports = React.createClass({
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script
+            dangerouslySetInnerHTML={{__html: 'var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?e2368c8cbecfb9839f58535140af6a3e";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();'}}
+          />
         </body>
       </html>
     )
