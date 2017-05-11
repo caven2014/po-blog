@@ -4,8 +4,6 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
-console.log(config)
-
 export default class Index extends React.Component {
   render () {
     return (
@@ -20,7 +18,7 @@ export default class Index extends React.Component {
         <h3>目录</h3>
         <ul>
           <li>
-            <Link to={prefixLink('/markdown/')}>2016工作总结</Link>
+            <Link to={prefixLink('/frontEnd/lesson1/')}>前端入门-1</Link>
           </li>
 
           {

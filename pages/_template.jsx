@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              jser
+              前端入门
             </Link>
           </Container>
         </Headroom>
