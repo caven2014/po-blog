@@ -21,7 +21,8 @@ module.exports = React.createClass({
             marginBottom: rhythm(1),
           }}
           style={{
-            background: 'lightgray',
+            background: 'white',
+            borderBottom: '1px solid rgba(0, 0, 0, 0.098)'
           }}
         >
           <Container
@@ -38,7 +39,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              前端入门
+              My Blog
             </Link>
           </Container>
         </Headroom>
