@@ -19,6 +19,15 @@ export default class Index extends React.Component {
           <li>
             <Link to={prefixLink('/frontEnd/blogs/')}>160家优秀国外技术公司博客</Link>
           </li>
+          <li>
+            <Link to={prefixLink('/frontEnd/ajax/')}>AJAX原理及实践</Link>
+          </li>
+          {/* <li>
+            <Link to={prefixLink('/frontEnd/fullstack/')}>全栈工程师知识点汇总</Link>
+          </li>
+          <li>
+            <Link to={prefixLink('/frontEnd/awsStart/')}>AWS入门总结</Link>
+          </li> */}
         </ol>
       </div>
     )
