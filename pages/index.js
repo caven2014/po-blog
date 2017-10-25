@@ -17,6 +17,9 @@ export default class Index extends React.Component {
         />
         <ol>
           <li>
+            <Link to={prefixLink('/frontEnd/myPlan/')}>我的工作计划</Link>
+          </li>
+          <li>
             <Link to={prefixLink('/frontEnd/blogs/')}>160家优秀国外技术公司博客</Link>
           </li>
           <li>
