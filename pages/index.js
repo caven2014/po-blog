@@ -4,6 +4,8 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
+import './example.less'
+
 export default class Index extends React.Component {
   render () {
     return (
@@ -15,23 +17,20 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "sample, something"},
           ]}
         />
-        <ol>
+        <ul className="blog_tag_list">
           <li>
             <Link to={prefixLink('/frontEnd/myPlan/')}>我的工作计划</Link>
           </li>
           <li>
-            <Link to={prefixLink('/frontEnd/blogs/')}>160家优秀国外技术公司博客</Link>
+            <Link to={prefixLink('/frontEnd/javascript/')}>Javascript相关</Link>
           </li>
           <li>
-            <Link to={prefixLink('/frontEnd/ajax/')}>AJAX原理及实践</Link>
-          </li>
-          {/* <li>
-            <Link to={prefixLink('/frontEnd/fullstack/')}>全栈工程师知识点汇总</Link>
+            <Link to={prefixLink('/frontEnd/html5/')}>HTML5相关</Link>
           </li>
           <li>
-            <Link to={prefixLink('/frontEnd/awsStart/')}>AWS入门总结</Link>
-          </li> */}
-        </ol>
+            <Link to={prefixLink('/frontEnd/resource/')}>各种资源</Link>
+          </li>
+        </ul>
       </div>
     )
   }
