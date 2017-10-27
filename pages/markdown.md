@@ -1,3 +1,9 @@
+---
+title: Hello World
+date: "2015-05-01T22:12:03.284Z"
+path: "/hello-world/"
+---
+
 转载请注明出处: [https://github.com/qiu-deqing/FE-learning](https://github.com/qiu-deqing/FE-learning)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
