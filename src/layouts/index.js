@@ -16,10 +16,10 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <h3
           style={{
-            ...scale(1),
-            marginBottom: rhythm(1),
+            fontFamily: 'Montserrat, sans-serif',
+            marginBottom: rhythm(-1),
             marginTop: 0,
           }}
         >
@@ -31,9 +31,9 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            玉
+            PO BLOG
           </Link>
-        </h1>
+        </h3>
       )
     } else {
       header = (
@@ -52,7 +52,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            HOME
           </Link>
         </h3>
       )
